@@ -30,7 +30,7 @@ jobs:
       - name: Run Hello World
         run: |
           echo "Running Hello World..."
-          node index.js
+          node app.js
 
       # Paso 5: Ejecutar tests básicos
       - name: Run tests
